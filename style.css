@@ -1,0 +1,190 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.subContainer{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.greyBG{
+    background-color: #F4F4F4;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.open-sans-font-heading {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4.5rem;
+    font-variation-settings: "wdth" 100;
+    margin-bottom: 0px;
+    padding-right: 20px;
+}
+.open-sans-font-paras {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size:larger;
+    font-variation-settings: "wdth" 100;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: justify;
+  }
+  .profileDP{
+    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    filter: drop-shadow(10px 10px 10px);
+  }
+  #collage-img{
+    margin-bottom: 40px;
+    height: 400px;
+    width: 400px;
+    border-radius: 0%;
+    filter: drop-shadow(10px 10px 10px);
+  }
+  .greyBG > h3{
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
+  }
+  .greyBG > p{
+    font-size:x-large;
+    margin-top: 10px;
+  }
+  button{
+    background-color: #737373;
+    border-radius: 10px;
+    color:#FFFFFF;
+    font-size: 2rem;
+    padding: 10px 70px 10px 70px;
+    border-style: none;
+  }
+  .subContainer > .subHeadings{
+    font-size: 4.5rem;
+    padding-right: 0px;
+    font-weight: 700;
+    align-self: flex-start;
+    margin-left: 90px;
+  }
+  .subContainer > ul{
+    align-self: flex-start;
+    margin-left: 90px;
+    padding-left: 25px;
+    font-size: 1.5rem;
+  }
+  .d-block{
+    border-radius: 5%;
+  }
+  .carousel{
+    height: 644px;
+    width: 362px;
+  }
+  .carousel-caption{
+    background-color:#737373;
+    border-radius: 10%;
+    font-size: 1.2rem;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #2E2E2E;
+    border-radius: 40%;
+  }
+  .catchy-line-para{
+    font-size: 1.4rem;
+  }
+  .hummingBird{
+    margin-bottom: 60px;
+  }
+  .socials{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+  }
+    @media (max-width: 1000px)
+    {
+          .main-container{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+          }
+          .container{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+        .subContainer{
+          display: flex;
+          width: 100%;
+          height: 50%;
+          flex-direction: column;
+        }
+        .greyBG > img{
+          padding: 20px;
+          border-radius: 15%;
+        }
+        .greyBG > a{
+          padding: 30px;
+        }
+        .greyBG > .carousel{
+          margin: 30px;
+        }
+        .socials{
+          padding-bottom: 30px;
+        }
+        .open-sans-font-paras {
+          font-family: "Open Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 300;
+          font-style: normal;
+          font-size:larger;
+          font-variation-settings: "wdth" 100;
+          padding-left: 50px;
+          padding-right: 50px;
+          text-align: justify;
+        }
+        #prof-bckg{
+            font-size: 3rem;
+            padding-right: 0px;
+            font-weight: 700;
+            align-self: flex-start;
+            margin-left: 50px;
+        }
+        #apart-fr-wrk{
+          font-size: 3.5rem;
+          padding-right: 0px;
+          font-weight: 700;
+          align-self: flex-start;
+          margin-left: 120px;
+        }
+        .open-sans-font-heading {
+          font-family: "Open Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 600;
+          font-style: normal;
+          font-size: 3.5rem;
+          font-variation-settings: "wdth" 100;
+          margin-bottom: 0px;
+          padding-right: 20px;
+          padding-left: 20px;
+
+      }
+
+
+    }
