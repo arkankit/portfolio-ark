@@ -92,8 +92,8 @@
     border-radius: 5%;
   }
   .carousel{
-    height: 644px;
-    width: 362px;
+    height: fit-content;
+    width: fit-content;
   }
   .carousel-caption{
     background-color:#737373;
@@ -185,14 +185,16 @@
           padding-left: 20px;
 
       }
+
     }
 
-@media (max-width: 500px){
-      .container {
-        gap: 30px;
-      }
-      .open-sans-font-heading {
-        font-size: 3rem;
+@media (min-width: 321px) and (max-width: 500px) {
+    .container {
+      gap: 30px;
+    }
+    .open-sans-font-heading {
+      font-size: 3rem;
+      padding-bottom: 15px;
     }
     .open-sans-font-paras {
       font-size: medium;
@@ -203,37 +205,86 @@
       width: 250px;
       border-radius: 10%;
       filter: drop-shadow(10px 10px 10px);
-  }
-  .greyBG > p {
-    font-size: larger;
-  }
-  .greyBG > h3 {
-    font-size: 2rem;
-  }
-  button {
-    font-size: 1.1rem;
-  }
-  #prof-bckg {
-    font-size: 1.9rem;
-    margin-left: 15px;
-  }
-  .subContainer > ul {
-    font-size: 1.2rem;
-  }
-  #collage-img {
-    margin-bottom: 0px;
-    height: 300px;
-    width: 300px;
-  }
-  #apart-fr-wrk {
-    font-size: 2.3rem;
-    margin-left: 40px;
+    }
+    .greyBG > p {
+      font-size: larger;
+    }
+    .greyBG > h3 {
+      font-size: 2rem;
+    }
+    button {
+      font-size: 1.1rem;
+    }
+    #prof-bckg {
+      font-size: 1.7rem;
+      margin-left: 10px;
+    }
+    .subContainer > ul {
+      font-size: 1.2rem;
+    }
+    #collage-img {
+      margin-bottom: 0px;
+      height: 300px;
+      width: 300px;
+    }
+    #apart-fr-wrk {
+      font-size: 2.3rem;
+      margin-left: 40px;
+    }
+    .socials img{
+      height: 30px;
+    }
+}
+
+@media (max-width: 320px){
+  .container {
+    gap: 20px;
   }
   .open-sans-font-heading {
-    font-size: 3rem;
+    font-size: 1.9rem;
     padding-bottom: 15px;
-  }
-  .socials img{
-    height: 30px;
-  }
+}
+.open-sans-font-paras {
+  font-size:small;
+}
+.profileDP {
+  margin-bottom: 30px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  filter: drop-shadow(8px 8px 8px);
+}
+.greyBG > p {
+font-size:medium;
+}
+.greyBG > h3 {
+font-size: 1.35rem;
+}
+button {
+font-size: 1rem;
+padding: 2px 30px 5px 30px;
+}
+#prof-bckg {
+font-size: 1.8rem;
+margin-left: 28px;
+}
+.subContainer > ul {
+font-size: 0.9rem;
+margin-left: 45px;
+}
+#collage-img {
+margin-bottom: 0px;
+height: 200px;
+width: 200px;
+}
+#apart-fr-wrk {
+font-size: 1.8rem;
+margin-left: 20px;
+}
+.socials img{
+height: 23px;
+}
+.socials{
+  margin-top: 40px;
+}
 }
