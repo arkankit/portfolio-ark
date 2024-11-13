@@ -95,6 +95,11 @@
     height: fit-content;
     width: fit-content;
   }
+  .carousel-item img {
+    width: 100%;
+    height: auto; /* Ensure the aspect ratio is maintained */
+    object-fit: cover; /* Adjust to fit container without distortion */
+  }
   .carousel-caption{
     background-color:#737373;
     border-radius: 10%;
